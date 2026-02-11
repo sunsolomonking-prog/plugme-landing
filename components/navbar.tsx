@@ -21,7 +21,7 @@ export function Navbar() {
               <Link
                 key={link.href}
                 href={String(link.href)}
-}
+
                 className={`text-sm font-medium transition ${
                   active ? 'text-brand-600' : 'text-slate-600 hover:text-brand-600'
                 }`}
